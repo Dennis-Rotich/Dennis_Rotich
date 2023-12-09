@@ -1,3 +1,15 @@
 body{
-    background-color: aqua;
+    background-color: blanchedalmond;
+    margin: 0 auto;
+    padding: 0px 10px 0px 10px;
+}
+#header{
+    text-align: center;
+}
+#image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 75vh;
+    width: 60%;
 }
