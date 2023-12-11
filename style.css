@@ -1,15 +1,159 @@
-body{
-    background-color: blanchedalmond;
-    margin: 0 auto;
-    padding: 0px 10px 0px 10px;
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin sans',sans-serif;
+    box-sizing: border-box;
 }
-#header{
-    text-align: center;
+.Champ{
+    height: 100vh;
+    width: 100%;
+    background-color: black ;
+    background-size: cover;
+    background-position: center;
 }
-#image{
+nav{
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: firebrick;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 25px 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: firebrick;
+    transition: .4s;
+}
+.btn{
+    color: white;
+    background-color: firebrick;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h4{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+h6{
+    color: crimson;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: darkgrey;
+}
+.About_me_content{
+    width: 500px;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+}
+.main{
+    width: 1000px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.About_me_content h2{
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.About_me_content h5{
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.About_me_content p{
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.About_me_content .button_one{
+    background-color: firebrick;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.About_me_content .button_one:hover{
+    background-color: transparent;
+    border: 2px solid  firebrick ;
+    cursor: pointer;
+}
+.contact_me{
+    width: 100%;
+    height: 290px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    height: 75vh;
-    width: 60%;
+}
+.contact_me p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact_me .button_two{
+    background-color: firebrick;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: .4s;
+    padding: 13px 30px;
+}
+.contact_me .button_two:hover{
+    background-color: transparent;
+    border: 2px solid firebrick;
+    cursor: pointer;
 }
